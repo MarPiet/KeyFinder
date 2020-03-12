@@ -1,0 +1,69 @@
+.contentContainer{
+    text-align: center;
+    width: 50%;
+    margin: 150px auto 0px;
+    border: 1px solid gray;
+}
+
+#formlabel{
+    font-size: 30px;
+    position: relative;
+    top: -25px;
+}
+
+.scaleRow{
+    padding-top: 20px;
+}
+
+#submitBtn{
+    margin-top: 50px;
+}
+
+#keyfoundid{
+    margin-bottom: 100px;
+}
+
+#keyfoundbtn{
+    border: 1px solid gray;
+    margin: 15px;
+    padding: 15px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#navbar{    
+    font-size: 20px;
+    padding: 15px;
+}
+
+tr a{
+    color: whitesmoke;
+    text-decoration: underline;
+}
+tr a:hover{
+    color: blue;
+}
+
+.fretRow{
+    position: relative;
+    top: -405px;
+    left: 200px;
+    width: fit-content;
+}
+
+.fretSelect{
+    padding-bottom: 13px;
+}
+
+@media only screen and (max-width: 600px) {
+    #guitarimg{
+        width: 100% !important;
+        height: 566px !important;
+    }
+    .fretRow{
+        left: 20%
+    }
+    .contentContainer{
+        width: fit-content;
+    }
+  }
